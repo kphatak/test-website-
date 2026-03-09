@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Dr. Apurva Dabak, DDS' }],
   creator: 'Dr. Apurva Dabak, DDS',
-  publisher: 'Apurva Dabak DDS Inc.',
+  publisher: 'Dr. Apurva Dabak Dental',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Apurva Dabak DDS Inc. — Redwood City, CA',
+        alt: 'Dr. Apurva Dabak Dental Office — Redwood City, CA',
       },
     ],
   },
@@ -87,14 +87,14 @@ const practiceSchema = {
   description:
     'General and cosmetic dentistry practice in Redwood City, CA offering dental implants, teeth whitening, porcelain veneers, and comprehensive dental care for the Bay Area Peninsula.',
   url: 'https://apurvadabak.com',
-  telephone: '6508200337',
-  email: 'contact@apurvadabak.com',
+  telephone: '[PHONE]',
+  email: '[EMAIL]',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '93 Arch St',
+    streetAddress: '[STREET ADDRESS]',
     addressLocality: 'Redwood City',
     addressRegion: 'CA',
-    postalCode: '94062',
+    postalCode: '[ZIP]',
     addressCountry: 'US',
   },
   geo: {

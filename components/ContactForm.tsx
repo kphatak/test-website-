@@ -86,7 +86,7 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} noValidate className="space-y-5">
       {state === 'error' && (
         <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-red-700 text-sm">
-          Something went wrong. Please try again or call us directly at (650) 820-0337.
+          Something went wrong. Please try again or call us directly at [PHONE].
         </div>
       )}
 

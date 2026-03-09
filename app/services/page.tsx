@@ -187,7 +187,7 @@ const services = [
       'Post-procedure complications',
     ],
     localSeo:
-      'Serving dental emergencies in Redwood City, San Mateo, Belmont, and the surrounding Peninsula communities. Call (650) 820-0337 for same-day emergency dental care.',
+      'Serving dental emergencies in Redwood City, San Mateo, Belmont, and the surrounding Peninsula communities. Call [PHONE] for same-day emergency dental care.',
   },
 ]
 
@@ -202,7 +202,7 @@ const faqs = [
   },
   {
     q: 'Can I get same-day emergency dental care in Redwood City?',
-    a: 'Yes. We reserve daily appointments for dental emergencies. Call (650) 820-0337 and we will do our best to see you the same day.',
+    a: 'Yes. We reserve daily appointments for dental emergencies. Call [PHONE] and we will do our best to see you the same day.',
   },
   {
     q: 'How many veneers do I need to transform my smile?',
@@ -239,7 +239,7 @@ export default function ServicesPage() {
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-white mt-2 mb-4">
             Dental Services in Redwood City, CA
           </h1>
-          <p className="text-xl text-navy-200 max-w-2xl mx-auto">
+          <p className="text-xl text-blue-200 max-w-2xl mx-auto">
             From your first cleaning to a complete smile transformation, our Redwood City dental office
             offers everything you need under one roof — with the expertise and technology to do it right.
           </p>
@@ -346,15 +346,15 @@ export default function ServicesPage() {
           <h2 className="font-serif text-3xl font-bold text-white mb-4">
             Ready to Get Started?
           </h2>
-          <p className="text-navy-200 mb-8">
+          <p className="text-blue-200 mb-8">
             Call our Redwood City office or book online. We&apos;re accepting new patients from across the Bay Area Peninsula.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/contact" className="btn-gold">
               Book an Appointment
             </Link>
-            <a href="tel:6508200337" className="btn-outline">
-              Call (650) 820-0337
+            <a href="tel:[PHONE]" className="btn-outline">
+              Call [PHONE]
             </a>
           </div>
         </div>

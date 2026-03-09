@@ -112,7 +112,7 @@ const stats = [
 const faqs = [
   {
     q: 'Does Dr. Dabak accept new patients in Redwood City?',
-    a: "Yes, we warmly welcome new patients of all ages. Call (650) 820-0337 or book online to schedule your new patient exam. We serve patients from Redwood City, San Mateo, Belmont, Foster City, Menlo Park, and the broader Bay Area Peninsula.",
+    a: "Yes, we warmly welcome new patients of all ages. Call [PHONE] or book online to schedule your new patient exam. We serve patients from Redwood City, San Mateo, Belmont, Foster City, Menlo Park, and the broader Bay Area Peninsula.",
   },
   {
     q: 'What dental insurance plans do you accept?',
@@ -120,7 +120,7 @@ const faqs = [
   },
   {
     q: 'Do you offer same-day emergency dental care in Redwood City?',
-    a: 'Yes. We reserve appointments for dental emergencies and make every effort to see urgent cases the same day. Call (650) 820-0337 right away if you have a toothache, broken tooth, swollen jaw, or knocked-out tooth.',
+    a: 'Yes. We reserve appointments for dental emergencies and make every effort to see urgent cases the same day. Call [PHONE] right away if you have a toothache, broken tooth, swollen jaw, or knocked-out tooth.',
   },
   {
     q: 'How long does a dental implant procedure take?',
@@ -181,7 +181,7 @@ export default function HomePage() {
               Dental Care
             </h1>
 
-            <p className="text-xl text-navy-100 leading-relaxed mb-8 max-w-xl">
+            <p className="text-xl text-blue-100 leading-relaxed mb-8 max-w-xl">
               Dr. Apurva Dabak, DDS offers compassionate, comprehensive dentistry — from routine cleanings
               to dental implants and smile makeovers — for patients across the Bay Area Peninsula.
             </p>
@@ -193,18 +193,18 @@ export default function HomePage() {
                 </svg>
                 Book Appointment
               </Link>
-              <a href="tel:6508200337" className="btn-outline text-base py-4 px-8">
+              <a href="tel:[PHONE]" className="btn-outline text-base py-4 px-8">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                Call (650) 820-0337
+                Call [PHONE]
               </a>
             </div>
 
             {/* Mini trust badges */}
             <div className="flex flex-wrap gap-4">
               {['ADA Member', 'CDA Member', 'AACD Member', 'Accepting Insurance'].map((badge) => (
-                <div key={badge} className="flex items-center gap-1.5 text-navy-200 text-sm">
+                <div key={badge} className="flex items-center gap-1.5 text-blue-200 text-sm">
                   <svg className="w-4 h-4 text-gold-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
@@ -232,7 +232,7 @@ export default function HomePage() {
                 </div>
                 <div className="text-center">
                   <p className="font-serif text-xl font-bold text-white mb-1">Dr. Apurva Dabak, DDS</p>
-                  <p className="text-navy-300 text-sm mb-4">General &amp; Cosmetic Dentist</p>
+                  <p className="text-blue-300 text-sm mb-4">General &amp; Cosmetic Dentist</p>
                   <div className="flex justify-center gap-1 mb-2">
                     {[1, 2, 3, 4, 5].map((i) => (
                       <svg key={i} className="w-5 h-5 text-gold-400" fill="currentColor" viewBox="0 0 20 20">
@@ -240,7 +240,7 @@ export default function HomePage() {
                       </svg>
                     ))}
                   </div>
-                  <p className="text-navy-200 text-sm">5.0 stars &middot; 127 Google reviews</p>
+                  <p className="text-blue-200 text-sm">5.0 stars &middot; 127 Google reviews</p>
                 </div>
               </div>
 
@@ -269,7 +269,7 @@ export default function HomePage() {
             {stats.map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="text-3xl font-serif font-bold text-gold-400 mb-1">{stat.value}</div>
-                <div className="text-sm text-navy-200">{stat.label}</div>
+                <div className="text-sm text-blue-200">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -343,8 +343,8 @@ export default function HomePage() {
               {/* Accent card */}
               <div className="absolute -bottom-6 -right-6 bg-navy-800 text-white rounded-2xl p-5 shadow-xl">
                 <p className="font-serif text-2xl font-bold text-gold-400">15+</p>
-                <p className="text-sm text-navy-200">Years Serving</p>
-                <p className="text-sm text-navy-200">the Bay Area</p>
+                <p className="text-sm text-blue-200">Years Serving</p>
+                <p className="text-sm text-blue-200">the Bay Area</p>
               </div>
             </div>
 
@@ -400,7 +400,7 @@ export default function HomePage() {
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-white">
               A Different Kind of Dental Experience
             </h2>
-            <p className="text-lg text-navy-200 mt-4 max-w-2xl mx-auto">
+            <p className="text-lg text-blue-200 mt-4 max-w-2xl mx-auto">
               At Dr. Dabak&apos;s Redwood City office, we&apos;ve built our practice around one principle:
               every patient deserves exceptional care delivered with warmth and respect.
             </p>
@@ -469,7 +469,7 @@ export default function HomePage() {
                   {item.icon}
                 </div>
                 <h3 className="font-serif text-lg font-bold text-white mb-2">{item.title}</h3>
-                <p className="text-navy-200 text-sm leading-relaxed">{item.desc}</p>
+                <p className="text-blue-200 text-sm leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -639,7 +639,7 @@ export default function HomePage() {
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-white mb-5">
             Ready for a Healthier, More Beautiful Smile?
           </h2>
-          <p className="text-xl text-navy-200 mb-10 max-w-2xl mx-auto">
+          <p className="text-xl text-blue-200 mb-10 max-w-2xl mx-auto">
             Join thousands of satisfied patients in Redwood City and across the Bay Area Peninsula.
             New patients always welcome — same-day emergencies accommodated.
           </p>
@@ -647,11 +647,11 @@ export default function HomePage() {
             <Link href="/contact" className="btn-gold text-base py-4 px-10">
               Book Your Appointment
             </Link>
-            <a href="tel:6508200337" className="btn-outline text-base py-4 px-10">
-              Call (650) 820-0337
+            <a href="tel:[PHONE]" className="btn-outline text-base py-4 px-10">
+              Call [PHONE]
             </a>
           </div>
-          <p className="text-navy-300 text-sm mt-6">
+          <p className="text-blue-300 text-sm mt-6">
             Serving Redwood City &middot; San Mateo &middot; Belmont &middot; Foster City &middot; Menlo Park &middot; Palo Alto
           </p>
         </div>

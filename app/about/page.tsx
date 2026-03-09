@@ -132,7 +132,7 @@ export default function AboutPage() {
             <h1 className="font-serif text-4xl md:text-5xl font-bold text-white mt-2 mb-4">
               Dr. Apurva Dabak, DDS
             </h1>
-            <p className="text-xl text-navy-200 max-w-2xl mx-auto">
+            <p className="text-xl text-blue-200 max-w-2xl mx-auto">
               Compassionate, skilled, and genuinely invested in the oral health of every patient
               in Redwood City and across the Bay Area Peninsula.
             </p>
@@ -208,7 +208,7 @@ export default function AboutPage() {
                 <Link href="/contact" className="btn-primary">
                   Book an Appointment
                 </Link>
-                <Link href="/services" className="btn-primary" style={{ background: 'transparent', border: '2px solid #4b3878', color: '#4b3878' }}>
+                <Link href="/services" className="btn-primary" style={{ background: 'transparent', border: '2px solid #153672', color: '#153672' }}>
                   View Our Services
                 </Link>
               </div>
@@ -310,7 +310,7 @@ export default function AboutPage() {
           <h2 className="font-serif text-3xl font-bold text-white mb-4">
             Ready to Experience the Difference?
           </h2>
-          <p className="text-navy-200 mb-8 text-lg">
+          <p className="text-blue-200 mb-8 text-lg">
             Schedule your first appointment with Dr. Dabak in Redwood City.
           </p>
           <Link href="/contact" className="btn-gold">

@@ -78,7 +78,7 @@ These issues are treatable with night guards, physical therapy, or other dental 
 
 Located in Redwood City, Dr. Dabak's practice offers same-day appointments for dental emergencies. If you're experiencing any of the symptoms above, don't wait. Early treatment almost always means a simpler, less costly solution.
 
-**Call us today at (650) 820-0337 or [book online](#).**
+**Call us today at [PHONE] or [book online](#).**
 
 ---
 
@@ -91,7 +91,7 @@ A: Most dental emergencies should be seen within 24 hours. A knocked-out tooth r
 A: Severe toothache, swelling in the jaw or face, a knocked-out or loose permanent tooth, a broken tooth with sharp edges, and dental abscesses are all dental emergencies.
 
 **Q: Does Dr. Dabak accept emergency walk-ins in Redwood City?**
-A: We accommodate emergency patients as quickly as possible. Call our office at (650) 820-0337 and we will do our best to see you the same day.
+A: We accommodate emergency patients as quickly as possible. Call our office at [PHONE] and we will do our best to see you the same day.
     `,
   },
   {
@@ -190,7 +190,7 @@ A: Age alone is not a barrier. Healthy older adults regularly receive implants w
 
 ---
 
-Ready to learn if dental implants are right for you? **Call our Redwood City office at (650) 820-0337** to schedule your free implant consultation.
+Ready to learn if dental implants are right for you? **Call our Redwood City office at [PHONE]** to schedule your free implant consultation.
     `,
   },
   {
@@ -300,7 +300,7 @@ A: We recommend waiting until after delivery and breastfeeding to complete any e
 
 ---
 
-Ready for a brighter smile? **Call Dr. Dabak's Redwood City office at (650) 820-0337** to schedule your whitening consultation.
+Ready for a brighter smile? **Call Dr. Dabak's Redwood City office at [PHONE]** to schedule your whitening consultation.
     `,
   },
   {
@@ -393,7 +393,7 @@ Dr. Dabak has been serving patients in Redwood City and the Bay Area Peninsula w
 ## Frequently Asked Questions
 
 **Q: Does Dr. Dabak accept new patients in Redwood City?**
-A: Yes, we are always welcoming new patients of all ages. Call (650) 820-0337 to schedule your first appointment.
+A: Yes, we are always welcoming new patients of all ages. Call [PHONE] to schedule your first appointment.
 
 **Q: Does Dr. Dabak accept dental insurance in the Bay Area?**
 A: We accept most major PPO dental insurance plans. Please call our office to confirm your specific plan is accepted.
@@ -403,7 +403,7 @@ A: Please bring your dental insurance card, a valid photo ID, and any dental rec
 
 ---
 
-**Call (650) 820-0337** to schedule your new patient exam at Dr. Dabak's Redwood City dental office. We look forward to meeting you!
+**Call [PHONE]** to schedule your new patient exam at Dr. Dabak's Redwood City dental office. We look forward to meeting you!
     `,
   },
 ]

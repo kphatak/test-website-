@@ -116,11 +116,11 @@ export default function BlogPostPage({ params }: Props) {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb */}
           <nav aria-label="Breadcrumb" className="mb-6">
-            <ol className="flex items-center gap-2 text-sm text-navy-300">
+            <ol className="flex items-center gap-2 text-sm text-blue-300">
               <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-              <li><span className="text-navy-400">/</span></li>
+              <li><span className="text-blue-600">/</span></li>
               <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-              <li><span className="text-navy-400">/</span></li>
+              <li><span className="text-blue-600">/</span></li>
               <li className="text-white/70 truncate max-w-xs">{post.title}</li>
             </ol>
           </nav>
@@ -129,7 +129,7 @@ export default function BlogPostPage({ params }: Props) {
             <span className="bg-gold-500/20 border border-gold-500/30 text-gold-400 text-xs font-semibold px-3 py-1 rounded-full">
               {post.category}
             </span>
-            <span className="text-navy-300 text-sm">{post.readTime}</span>
+            <span className="text-blue-300 text-sm">{post.readTime}</span>
           </div>
 
           <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
@@ -144,7 +144,7 @@ export default function BlogPostPage({ params }: Props) {
               <p className="font-semibold text-white text-sm">
                 {post.author}, {post.authorTitle}
               </p>
-              <p className="text-navy-300 text-xs">
+              <p className="text-blue-300 text-xs">
                 {formattedDate} &middot; Redwood City, CA
               </p>
             </div>
@@ -210,14 +210,14 @@ export default function BlogPostPage({ params }: Props) {
                 <h3 className="font-serif text-lg font-bold mb-3">
                   Ready for Your Appointment?
                 </h3>
-                <p className="text-navy-200 text-sm mb-5">
+                <p className="text-blue-200 text-sm mb-5">
                   Dr. Dabak&apos;s Redwood City dental office is welcoming new patients from across the Bay Area Peninsula.
                 </p>
                 <Link href="/contact" className="btn-gold w-full text-center">
                   Book Appointment
                 </Link>
-                <a href="tel:6508200337" className="mt-3 block text-center text-navy-300 text-sm hover:text-white transition-colors">
-                  Or call (650) 820-0337
+                <a href="tel:[PHONE]" className="mt-3 block text-center text-blue-300 text-sm hover:text-white transition-colors">
+                  Or call [PHONE]
                 </a>
               </div>
 
@@ -265,7 +265,7 @@ export default function BlogPostPage({ params }: Props) {
             <Link href="/contact" className="btn-primary">
               Book an Appointment
             </Link>
-            <Link href="/blog" className="btn-primary" style={{ background: 'transparent', border: '2px solid #4b3878', color: '#4b3878' }}>
+            <Link href="/blog" className="btn-primary" style={{ background: 'transparent', border: '2px solid #153672', color: '#153672' }}>
               More Articles
             </Link>
           </div>

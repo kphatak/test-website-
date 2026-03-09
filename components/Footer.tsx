@@ -52,7 +52,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.yelp.com/biz/apurva-dabak-dds-redwood-city?osq=Apurva+Dabak+DDS"
+                href="https://www.yelp.com/search?find_desc=Dr+Apurva+Dabak&find_loc=Redwood+City+CA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-navy-700 rounded-lg flex items-center justify-center hover:bg-gold-500 transition-colors"
@@ -111,8 +111,8 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <div>
-                  <p className="text-sm text-gray-400">93 Arch St</p>
-                  <p className="text-sm text-gray-400">Redwood City, CA 94062</p>
+                  <p className="text-sm text-gray-400">[STREET ADDRESS]</p>
+                  <p className="text-sm text-gray-400">Redwood City, CA [ZIP]</p>
                 </div>
               </div>
 
@@ -120,8 +120,8 @@ export default function Footer() {
                 <svg className="w-5 h-5 text-gold-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <a href="tel:6508200337" className="text-sm text-gray-400 hover:text-gold-400 transition-colors">
-                  (650) 820-0337
+                <a href="tel:[PHONE]" className="text-sm text-gray-400 hover:text-gold-400 transition-colors">
+                  [PHONE]
                 </a>
               </div>
 
@@ -129,8 +129,8 @@ export default function Footer() {
                 <svg className="w-5 h-5 text-gold-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <a href="mailto:contact@apurvadabak.com" className="text-sm text-gray-400 hover:text-gold-400 transition-colors">
-                  contact@apurvadabak.com
+                <a href="mailto:[EMAIL]" className="text-sm text-gray-400 hover:text-gold-400 transition-colors">
+                  [EMAIL]
                 </a>
               </div>
 
@@ -153,7 +153,7 @@ export default function Footer() {
       <div className="border-t border-navy-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} Apurva Dabak DDS Inc. All rights reserved. &middot; Redwood City, CA
+            &copy; {new Date().getFullYear()} Dr. Apurva Dabak, DDS. All rights reserved. &middot; Redwood City, CA
           </p>
           <div className="flex gap-5">
             <Link href="/privacy" className="text-xs text-gray-500 hover:text-gray-300 transition-colors">

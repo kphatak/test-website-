@@ -19,14 +19,14 @@ const contactSchema = {
   '@type': 'Dentist',
   name: 'Dr. Apurva Dabak, DDS',
   url: 'https://apurvadabak.com/contact',
-  telephone: '6508200337',
-  email: 'contact@apurvadabak.com',
+  telephone: '[PHONE]',
+  email: '[EMAIL]',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '93 Arch St',
+    streetAddress: '[STREET ADDRESS]',
     addressLocality: 'Redwood City',
     addressRegion: 'CA',
-    postalCode: '94062',
+    postalCode: '[ZIP]',
     addressCountry: 'US',
   },
   openingHoursSpecification: [
@@ -71,7 +71,7 @@ export default function ContactPage() {
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-white mt-2 mb-4">
             Contact Our Redwood City Dental Office
           </h1>
-          <p className="text-xl text-navy-200 max-w-2xl mx-auto">
+          <p className="text-xl text-blue-200 max-w-2xl mx-auto">
             Book an appointment, ask a question, or call for a same-day dental emergency.
             We&apos;re here for patients across the Bay Area Peninsula.
           </p>
@@ -86,8 +86,8 @@ export default function ContactPage() {
           </svg>
           <span className="font-semibold text-sm">
             Dental Emergency? Call{' '}
-            <a href="tel:6508200337" className="underline hover:no-underline font-bold">
-              (650) 820-0337
+            <a href="tel:[PHONE]" className="underline hover:no-underline font-bold">
+              [PHONE]
             </a>{' '}
             for same-day emergency care in Redwood City.
           </span>
@@ -115,8 +115,8 @@ export default function ContactPage() {
                     <div>
                       <p className="font-semibold text-gray-900 text-sm mb-1">Address</p>
                       <address className="not-italic text-gray-600 text-sm leading-relaxed">
-                        93 Arch St<br />
-                        Redwood City, CA 94062
+                        [STREET ADDRESS]<br />
+                        Redwood City, CA [ZIP]
                       </address>
                       <a
                         href="https://maps.google.com/?q=Redwood+City+CA"
@@ -137,8 +137,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 text-sm mb-1">Phone</p>
-                      <a href="tel:6508200337" className="text-navy-600 hover:text-gold-600 transition-colors font-medium">
-                        (650) 820-0337
+                      <a href="tel:[PHONE]" className="text-navy-600 hover:text-gold-600 transition-colors font-medium">
+                        [PHONE]
                       </a>
                       <p className="text-gray-500 text-xs mt-0.5">Call or text</p>
                     </div>
@@ -152,8 +152,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 text-sm mb-1">Email</p>
-                      <a href="mailto:contact@apurvadabak.com" className="text-navy-600 hover:text-gold-600 transition-colors">
-                        contact@apurvadabak.com
+                      <a href="mailto:[EMAIL]" className="text-navy-600 hover:text-gold-600 transition-colors">
+                        [EMAIL]
                       </a>
                       <p className="text-gray-500 text-xs mt-0.5">Response within 1 business day</p>
                     </div>
@@ -179,7 +179,7 @@ export default function ContactPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <p className="text-xs text-red-700">
-                    <strong>Dental Emergency?</strong> Call <a href="tel:6508200337" className="underline">(650) 820-0337</a> — we provide same-day emergency care.
+                    <strong>Dental Emergency?</strong> Call <a href="tel:[PHONE]" className="underline">[PHONE]</a> — we provide same-day emergency care.
                   </p>
                 </div>
               </div>
@@ -187,13 +187,13 @@ export default function ContactPage() {
               {/* Insurance */}
               <div className="bg-navy-800 rounded-2xl p-6">
                 <h2 className="font-serif text-lg font-bold text-white mb-3">Insurance &amp; Payment</h2>
-                <p className="text-navy-200 text-sm leading-relaxed mb-4">
+                <p className="text-blue-200 text-sm leading-relaxed mb-4">
                   We accept most major PPO dental insurance plans. Don&apos;t have insurance? Ask about our
                   flexible financing and in-office dental savings plan.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {['Delta Dental', 'Cigna', 'Aetna', 'MetLife', 'United', 'Guardian', 'CareCredit'].map((ins) => (
-                    <span key={ins} className="bg-navy-700 text-navy-200 text-xs px-3 py-1 rounded-full">
+                    <span key={ins} className="bg-navy-700 text-blue-200 text-xs px-3 py-1 rounded-full">
                       {ins}
                     </span>
                   ))}
@@ -227,13 +227,18 @@ export default function ContactPage() {
           {/* Google Maps embed placeholder */}
           <div className="w-full h-80 bg-navy-100 rounded-2xl flex items-center justify-center border border-navy-200">
             <div className="text-center">
-              {/*<svg className="w-12 h-12 text-navy-400 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">*/}
-              {/*  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />*/}
-              {/*  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />*/}
-              {/*</svg>*/}
-              {
+              <svg className="w-12 h-12 text-navy-400 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <p className="text-navy-600 font-medium text-sm">Google Maps Embed</p>
+              <p className="text-navy-400 text-xs mt-1">
+                Replace this div with a Google Maps iframe for your address
+              </p>
+              {/*
+                Example embed code:
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.822039601711!2d-122.23899940000001!3d37.4885257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fa24964f73bd9%3A0xbc282dbd9a3ded9e!2s93%20Arch%20St%2C%20Redwood%20City%2C%20CA%2094062!5e0!3m2!1sen!2sus!4v1771643840813!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=YOUR_EMBED_CODE"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -241,7 +246,7 @@ export default function ContactPage() {
                   loading="lazy"
                   title="Dr. Apurva Dabak Dental Office - Redwood City, CA"
                 />
-              }
+              */}
             </div>
           </div>
 

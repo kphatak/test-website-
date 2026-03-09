@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const blogListSchema = {
   '@context': 'https://schema.org',
   '@type': 'Blog',
-  name: 'Apurva Dabak DDS Inc. Dental Health Blog',
+  name: 'Dr. Apurva Dabak Dental Health Blog',
   description: 'Dental health articles and patient resources from Dr. Apurva Dabak, DDS in Redwood City, CA.',
   url: 'https://apurvadabak.com/blog',
   publisher: {
@@ -57,7 +57,7 @@ export default function BlogPage() {
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-white mt-2 mb-4">
             Dental Health Blog
           </h1>
-          <p className="text-xl text-navy-200 max-w-2xl mx-auto">
+          <p className="text-xl text-blue-200 max-w-2xl mx-auto">
             Expert dental health guides, patient education, and oral care tips from Dr. Apurva Dabak, DDS —
             your Redwood City dentist.
           </p>
